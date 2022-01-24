@@ -1,0 +1,6 @@
+POST http://localhost:7071/openai/text-detector/recognize-text HTTP/1.1
+content-type: application/json
+
+{
+   
+}
