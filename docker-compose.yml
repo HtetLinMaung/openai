@@ -5,11 +5,11 @@ services:
     image: htetlinmaung/openai
     build: .
     ports:
-      - "9091:80"
+      - "9092:80"
     volumes:
       - /app/openai/public:/app/public
     environment:
       - worker_processes=auto
       - port=80
-      - PYOPENAI=http://150.95.82.125:9090/pyopenai
+      - PYOPENAI=http://150.95.82.125:9091/pyopenai
       - DB_CONNECTION=mongodb://150.95.82.125:27018/openaidb
