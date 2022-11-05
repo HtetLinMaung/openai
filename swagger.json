@@ -1,0 +1,181 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "OpenAPI 3.0",
+    "description": "",
+    "version": "1.0.11"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:7071"
+    }
+  ],
+  "tags": [
+    {
+      "name": "routes",
+      "description": "Everything about your Routes"
+    }
+  ],
+  "paths": {
+    "/openai/face-detector/add-known-faces": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getopenai_face-detector_add-known-faces"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postopenai_face-detector_add-known-faces"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putopenai_face-detector_add-known-faces"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchopenai_face-detector_add-known-faces"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteopenai_face-detector_add-known-faces"
+      }
+    },
+    "/openai/face-detector/detect-faces": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getopenai_face-detector_detect-faces"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postopenai_face-detector_detect-faces"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putopenai_face-detector_detect-faces"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchopenai_face-detector_detect-faces"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteopenai_face-detector_detect-faces"
+      }
+    },
+    "/openai/face-detector/identify-faces": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getopenai_face-detector_identify-faces"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postopenai_face-detector_identify-faces"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putopenai_face-detector_identify-faces"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchopenai_face-detector_identify-faces"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteopenai_face-detector_identify-faces"
+      }
+    },
+    "/openai": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getopenai"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postopenai"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putopenai"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchopenai"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteopenai"
+      }
+    },
+    "/openai/text-detector/recognize-text": {
+      "get": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "getopenai_text-detector_recognize-text"
+      },
+      "post": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "postopenai_text-detector_recognize-text"
+      },
+      "put": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "putopenai_text-detector_recognize-text"
+      },
+      "patch": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "patchopenai_text-detector_recognize-text"
+      },
+      "delete": {
+        "tags": [
+          "routes"
+        ],
+        "operationId": "deleteopenai_text-detector_recognize-text"
+      }
+    }
+  }
+}
